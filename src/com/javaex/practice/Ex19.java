@@ -8,7 +8,7 @@ public class Ex19 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		int sum = 0;
+		int sum = 0; // 반복문 밖에서 선언
 		while(true) {
 			System.out.println("------------------------------");
 			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
@@ -16,7 +16,7 @@ public class Ex19 {
 			System.out.print("선택>");
 			int num = sc.nextInt();
 			
-			if(num==4) {
+			if(num==4) { // switch-case 사용한가?
 				System.out.print("프로그램 종료");
 				break;}
 			
@@ -38,6 +38,7 @@ public class Ex19 {
 			else {System.out.println("다시입력해주세요");
 			}
 		}
+		
 		sc.close();
 	}			
 }

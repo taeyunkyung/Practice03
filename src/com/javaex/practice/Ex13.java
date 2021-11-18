@@ -17,7 +17,7 @@ public class Ex13 {
 		}
 		System.out.print("합계: "+sum);
 		
-		sc.close();
+		sc.close(); // 여긴 괜찮잖아
 	}
 
 }

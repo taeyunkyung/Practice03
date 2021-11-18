@@ -14,12 +14,13 @@ public class Ex10 {
 		
 		for(i=1; i<=4; i++ ) {
 			System.out.print("숫자: "); int num = sc.nextInt();			
-				if(num>num1) {num1=num;}		
+				if(num>num1) {num1=num;} 
+				// num1을 최대값이라고 생각, 더 큰 수가 나오면 num1값을 바꿈
 			}
 	
-		System.out.println("최댓값은 "+num1+"입니다.");	
+		System.out.println("최대값은 "+num1+"입니다.");	
 		
-		sc.close();
+		sc.close(); // 왜 자꾸 안 닫았다고 하는거야? 닫았는데
 	}
 
 }

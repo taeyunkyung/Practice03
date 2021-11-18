@@ -17,7 +17,7 @@ public class Ex12 {
 			}
 		System.out.print("결과값: "+f);
 		
-		sc.close();
+		sc.close(); // 왜 자꾸 안 닫았다고 하는거야? 닫았는데3
 	}
 
 }
