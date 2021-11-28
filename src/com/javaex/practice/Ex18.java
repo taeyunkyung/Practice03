@@ -21,6 +21,23 @@ public class Ex18 {
 		}
 		
 		sc.close();	
+		
+		/*
+		 * 변수 너무 많이 잡지 말고
+		 * for(int y=1; y<=num; y++) {
+		 * 		for(int x=1; x<=num+1-y; x++) {
+		 * 		System.out.print("*");
+		 * 		}
+		 * 		System.out.println("");
+		 * }
+		 * 
+		 * for(int y=1; y<=num-1; y++) {
+		 * 		for(int x=1; x<=y+1; x++) {
+		 * 		System.out.print("*");
+		 * 		}
+		 * 		System.out.println("");
+		 * }
+		 */
 	}
 
 }

@@ -23,6 +23,16 @@ public class Ex44 {
 		
 		System.out.println("");
 		System.out.print("합계: "+sum);
+		
+		/*
+		 * for(int i=1; i<=num; i++) {
+		 * 		sum = sum+1;
+		 * 		if(i==num) {
+		 * 			System.out.println(i);
+		 * 		} else {
+		 * 			System.out.println(i+"+");
+		 * 		}
+		 */
 	}
 
 }

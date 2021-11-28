@@ -22,6 +22,26 @@ public class Ex41 {
 		    sum=sum+i;}
 		
 		System.out.print("결과값: "+sum);
+		
+		/*
+		 * Scanner sc = new Scanner(System.in);
+		 * System.out.println("숫자를 입력하세요");
+		 * int num = sc.nextInt(); 
+		 * int startNum; --> 신기..
+		 * int sum = 0;
+		 * 
+		 * if (num % 2 ==1) {
+		 * 		startNum = 1;
+		 * } else {
+		 * 		startNum = 2;
+		 * }
+		 * 
+		 * for (int i = startNum; i <= num; i = i+2) {
+		 * 		sum = sum + i;
+		 * }
+		 * System.out.print("결과값: "+sum);
+		 * sc.close();
+		 */
 	}
 
 }

@@ -21,6 +21,12 @@ public class Ex16 {
 		System.out.print("5의배수의 합: "+sum);
 		
 		sc.close();
+		
+		/*
+		 * if(i%5 ==0) {
+		 * 		count++; // count = count+1, count+=1
+		 * }
+		 */
 	}
 
 }

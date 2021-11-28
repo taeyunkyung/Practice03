@@ -16,7 +16,7 @@ public class Ex19 {
 			System.out.print("선택>");
 			int num = sc.nextInt();
 			
-			if(num==4) { // switch-case 사용한가?
+			if(num==4) { // switch-case 
 				System.out.print("프로그램 종료");
 				break;}
 			
